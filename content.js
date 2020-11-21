@@ -14,7 +14,7 @@ Johann Burkard
 <mailto:jb@eaio.com>
 
 */
-
+// Library used to utlize ability to highlight fighter's name
 jQuery.fn.highlight = function(pat) {
 function innerHighlight(node, pat) {
     var skip = 0;
@@ -56,7 +56,7 @@ return this.find("span.highlight").each(function() {
 
 
 
-
+//Highlighting fighter's name
 var all = document.getElementsByTagName("*");
 var originalAllLength = all.length
 for (var i=0; i < originalAllLength; i++) {
