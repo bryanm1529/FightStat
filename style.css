@@ -1,6 +1,8 @@
 .highlight {
     color: green;
 }
+
+/* styling for pop-up of fighter histroy and info */
 #pop {
     display              : none;
     position             : absolute;
